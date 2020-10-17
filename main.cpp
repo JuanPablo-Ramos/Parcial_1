@@ -7,16 +7,16 @@ using namespace std;
 int main()
 {
     int opcion=0;
-    bool impactoCañonO=false, impactoCañonD=false;
+
     float tO, tD, t0O=0, t0D=2.5, radioD =0.025, radioO =0.05, Ho, HD, distancia, anguloO, anguloD;
     float yO, vyO, g=9.8, xO, vxO, yD, vyD, xD, vxD, v0O, v0D;
 
     // Opciones
     cout <<" Elija una de las opciones: "<<endl;
-    cout <<"1. Generar disparos (al menos tres) ofensivos que comprometan la integridad del cañón defensivo."<<endl;
-    cout <<"2. Generar disparos (al menos tres) defensivos que comprometan la integridad del cañón ofensivo."<<endl;
-    cout <<"3. Dado un disparo ofensivo, generar (al menos tres) disparos defensivos que impida que el cañón defensivo sea destruido sin importar si el cañón ofensivo pueda ser destruido."<<endl;
-    cout <<"4. Dado un disparo ofensivo, generar (al emnos tres) disparo defensivos que impidan que los cañones defensivo y ofensivo puedan ser destruidos."<<endl;
+    cout <<"1. Generar disparos (al menos tres) ofensivos que comprometan la integridad del canon defensivo."<<endl;
+    cout <<"2. Generar disparos (al menos tres) defensivos que comprometan la integridad del canon ofensivo."<<endl;
+    cout <<"3. Dado un disparo ofensivo, generar (al menos tres) disparos defensivos que impida que el canon defensivo sea destruido sin importar si el cañon ofensivo pueda ser destruido."<<endl;
+    cout <<"4. Dado un disparo ofensivo, generar (al emnos tres) disparo defensivos que impidan que los canones defensivo y ofensivo puedan ser destruidos."<<endl;
     cin >> opcion;
 
     if (opcion == 1){      // La posicion de la bala ofensiva debe ser igual o estar en el rango de detonacion de 0.05 de
