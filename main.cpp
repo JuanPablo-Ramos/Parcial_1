@@ -19,7 +19,12 @@ int main()
     cout <<"4. Dado un disparo ofensivo, generar (al emnos tres) disparo defensivos que impidan que los cañones defensivo y ofensivo puedan ser destruidos."<<endl;
     cin >> opcion;
 
-    if (opcion == 1){
+    if (opcion == 1){      // La posicion de la bala ofensiva debe ser igual o estar en el rango de detonacion de 0.05 de
+        distancia= 10;     // la posicion de el cañon defensivo en esta opcion.
+        Ho=2;
+        HD=8;
+        v0O=25;
+
 
     }
     else if (opcion == 2){
